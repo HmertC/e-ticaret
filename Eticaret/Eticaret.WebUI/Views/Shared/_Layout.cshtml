@@ -1,0 +1,40 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet" />
+    @RenderSection("Css", false)
+    <title>E-Ticaret</title>
+</head>
+<body>
+
+    @await Html.PartialAsync("_navbar")
+
+  
+
+    <main class="my-5">
+        <div class="container">
+            @*@if (TempData["message"] != null)
+            {
+                <partial name=" _ResultMessage" model="@(TempData.Get<AlertMessage>("message"))"/>
+            }*@
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="py-5 bg-dark text-white text-center">
+        Shop App | 2022
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>
+

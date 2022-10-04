@@ -1,0 +1,86 @@
+﻿@model OrderModel
+<h1>Checkout</h1>
+<div class="row">
+    <div class="col-md-8">
+        <h4 class="mb-3">Sİpariş Detay</h4>
+        <form method="post" asp-controller="Cart" asp-action="Checkout">
+            <input type="hidden" name="cartId" value="" />
+            <div class="col-md-6">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" class="form-control" />
+            </div>
+            <div class="col-md-6">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Address"></label>
+                <textarea class="form-control" asp-for="Address"></textarea>
+            </div>
+            <div class="col-md-4">
+                <label asp-for="City"></label>
+                <input asp-for="City" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Phone"></label>
+                <input asp-for="Phone" class="form-control" />
+            </div>
+            <div class="col-md-4">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+            </div>
+
+
+            <h4 class="mb-3"> Ödeme Bilgileri</h4>
+            <hr class="mb-3" />
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="CartName"></label>
+                    <input asp-for="CartName" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="CartNumber"></label>
+                    <input asp-for="CartNumber" class="form-control" />
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label asp-for="ExpirationMonth"></label>
+                    <input asp-for="ExpirationMonth" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="ExpirationYear"></label>
+                    <input asp-for="ExpirationYear" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="Cvc"></label>
+                    <input asp-for="Cvc" class="form-control" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <h4 class="mb-3">
+            <span>Özet Bilgiler</span>
+        </h4>
+        <ul class="list-group mb-3">
+
+            @foreach (var item in Model.CartModel.CartItems)
+            {
+                <li class="list-group-item d-flex justify-content-between">
+                    <div>
+                        <h6>@item.Name</h6>
+                    </div>
+                    <span class="text-muted">@item.Price.ToString("c")</span>
+                </li>
+            }
+
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total(TL)</span>
+                    <strong>@Model.CartModel.TotalPrice().ToString("c")</strong>
+                </li>
+            </ul>
+    </div>
+</div>

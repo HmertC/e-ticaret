@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "/SMqIMpk/3+XbBTvfEueb75OH1ED3UZVMzccNEZEx0WBFZv0hFj6Thjjcd6g0sS3521s6VFUkyB9TWb+cklk6w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HMERTC\\source\\repos\\Eticaret\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\HMERTC\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

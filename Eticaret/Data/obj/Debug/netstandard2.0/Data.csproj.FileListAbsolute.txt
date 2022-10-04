@@ -1,0 +1,13 @@
+C:\Users\HMERTC\source\repos\Eticaret\Data\bin\Debug\netstandard2.0\Data.deps.json
+C:\Users\HMERTC\source\repos\Eticaret\Data\bin\Debug\netstandard2.0\Data.dll
+C:\Users\HMERTC\source\repos\Eticaret\Data\bin\Debug\netstandard2.0\Data.pdb
+C:\Users\HMERTC\source\repos\Eticaret\Data\bin\Debug\netstandard2.0\Entity.dll
+C:\Users\HMERTC\source\repos\Eticaret\Data\bin\Debug\netstandard2.0\Entity.pdb
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.csproj.AssemblyReference.cache
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.AssemblyInfoInputs.cache
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.AssemblyInfo.cs
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.csproj.CopyComplete
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.dll
+C:\Users\HMERTC\source\repos\Eticaret\Data\obj\Debug\netstandard2.0\Data.pdb
